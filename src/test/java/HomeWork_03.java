@@ -50,8 +50,8 @@ public class HomeWork_03 {
         $("#hobbiesWrapper").$(byText("Reading")).click();
         $("#hobbiesWrapper").$(byText("Music")).click();
 
-        $("#uploadPicture").uploadFromClasspath("src/test/resources/1.jpg");//Самый ТОП
-        //$("#uploadPicture").uploadFile(new File("src/test/resources/1.jpg"));
+        //$("#uploadPicture").uploadFromClasspath("src/test/resources/1.jpg");//разобраться
+        $("#uploadPicture").uploadFile(new File("src/test/resources/1.jpg"));
 
         $("#currentAddress").setValue("Kazancevo");
 
