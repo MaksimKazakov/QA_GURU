@@ -13,7 +13,7 @@ repositories {
 ext {
     allureVersion = '2.24.0'
     junitVersion = '5.10.0'
-    selenideVersion = '7.2.0'
+    selenideVersion = '7.2.1'
     slf4jVersion = '2.0.12'
 }
 
