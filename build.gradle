@@ -16,6 +16,10 @@ java {
     }
 }
 
+/*
+    Тестирование новой ветки
+*/
+
 ext {
     allureVersion = '2.24.0'
     junitVersion = '5.10.0'
