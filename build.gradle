@@ -60,3 +60,9 @@ allure {
         version = "${allureVersion}"
     }
 }
+
+task simple_test(type: Test){
+    useJUnitPlatform{
+        includeTags('simple')
+    }
+}

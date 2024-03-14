@@ -3,13 +3,15 @@ import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.conditions.clipboard.Content;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
-
+@Tag("simple")
 public class TestBoxDemoQA {
     //https://demoqa.com/text-box
+
     @BeforeAll
     static void beforeAll() {
         Configuration.browserSize = "1920x1080";
