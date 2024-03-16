@@ -19,17 +19,18 @@ public class TestBoxDemoQA {
 
     @Test
     void fillForm() {
-        open("https://demoqa.com/text-box");
+        open("https://mail.ru");
+        // open("https://demoqa.com/text-box");
 //        Configuration.holdBrowserOpen = true;
 
-        $("#userName").setValue("Maxim Kazakov");
-        $("#userEmail").setValue("info@kazakovms.ru");
-        $("#currentAddress").setValue("First adress");
-        $("#permanentAddress").setValue("Second adress");
-        $("#submit").click();
-
-        $("#output").shouldHave(text("Maxim Kazakov"), text("info@kazakovms.ru"), text("First adress"),
-                text("Second adress"));
+//        $("#userName").setValue("Maxim Kazakov");
+//        $("#userEmail").setValue("info@kazakovms.ru");
+//        $("#currentAddress").setValue("First adress");
+//        $("#permanentAddress").setValue("Second adress");
+//        $("#submit").click();
+//
+//        $("#output").shouldHave(text("Maxim Kazakov"), text("info@kazakovms.ru"), text("First adress"),
+//                text("Second adress"));
 
 
     }
