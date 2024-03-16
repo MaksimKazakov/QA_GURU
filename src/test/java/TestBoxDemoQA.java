@@ -35,8 +35,8 @@ public class TestBoxDemoQA {
 
     }
 
-    @AfterAll
-    static void settingProg() {
-        Configuration.holdBrowserOpen = true;
-    }
+    //@AfterAll
+    //static void settingProg() {
+      //  Configuration.holdBrowserOpen = true;
+    //}
 }
