@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JUnitExamples" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-03-16T19:32:38" hostname="MacBook-Air-Maksim.local" time="0.008">
+  <properties/>
+  <testcase name="Annotation JUnit5" classname="JUnitExamples" time="0.003"/>
+  <testcase name="secondTest()" classname="JUnitExamples" time="0.001"/>
+  <system-out><![CDATA[Here is beforeAll()
+	Here is beforeEach()
+		Here is firstTest()
+	Here is afterEach()
+	Here is beforeEach()
+		Here is secondTest()
+	Here is afterEach()
+Here is afterAll()
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HomeWork_03" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-03-16T19:32:27" hostname="MacBook-Air-Maksim.local" time="11.269">
+  <properties/>
+  <testcase name="PracticeForm()" classname="HomeWork_03" time="11.269">
+    <failure message="Invalid element state [#genterWrapper/by text: Female]: element click intercepted: Element &lt;label title=&quot;&quot; for=&quot;gender-radio-2&quot; class=&quot;custom-control-label&quot;&gt;...&lt;/label&gt; is not clickable at point (144, 282). Other element would receive the click: &lt;div&gt;...&lt;/div&gt;&#10;Screenshot: file:/Users/maksimkazakov/Desktop/QA_GURU/QA_GURU/build/reports/tests/1710617558543.1.png&#10;Page source: file:/Users/maksimkazakov/Desktop/QA_GURU/QA_GURU/build/reports/tests/1710617558543.1.html&#10;Timeout: 4 s.&#10;Caused by: ElementClickInterceptedException: element click intercepted: Element &lt;label title=&quot;&quot; for=&quot;gender-radio-2&quot; class=&quot;custom-control-label&quot;&gt;...&lt;/label&gt; is not clickable at point (144, 282). Other element would receive the click: &lt;div&gt;...&lt;/div&gt;" type="com.codeborne.selenide.ex.InvalidStateError">Invalid element state [#genterWrapper/by text: Female]: element click intercepted: Element &lt;label title=&quot;&quot; for=&quot;gender-radio-2&quot; class=&quot;custom-control-label&quot;&gt;...&lt;/label&gt; is not clickable at point (144, 282). Other element would receive the click: &lt;div&gt;...&lt;/div&gt;
+Screenshot: file:/Users/maksimkazakov/Desktop/QA_GURU/QA_GURU/build/reports/tests/1710617558543.1.png
+Page source: file:/Users/maksimkazakov/Desktop/QA_GURU/QA_GURU/build/reports/tests/1710617558543.1.html
+Timeout: 4 s.
+Caused by: ElementClickInterceptedException: element click intercepted: Element &lt;label title=&quot;&quot; for=&quot;gender-radio-2&quot; class=&quot;custom-control-label&quot;&gt;...&lt;/label&gt; is not clickable at point (144, 282). Other element would receive the click: &lt;div&gt;...&lt;/div&gt;
+	at app//com.codeborne.selenide.impl.ExceptionWrapper.wrap(ExceptionWrapper.java:26)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:156)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:86)
+	at app/jdk.proxy3/jdk.proxy3.$Proxy18.click(Unknown Source)
+	at app//HomeWork_03.PracticeForm(HomeWork_03.java:36)
+	at java.base@17.0.9/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base@17.0.9/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base@17.0.9/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;label title=&quot;&quot; for=&quot;gender-radio-2&quot; class=&quot;custom-control-label&quot;&gt;...&lt;/label&gt; is not clickable at point (144, 282). Other element would receive the click: &lt;div&gt;...&lt;/div&gt;
+  (Session info: chrome=122.0.6261.129)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a26009da178f0f3a1b6812b6048a0b30, clickElement {id=f.FB2EC736421482F378A41FF81CB9F68D.d.6B9C1BF876C47ED31ADC73DFC86D598C.e.39}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: /var/folders/zl/499w_prx503...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61723}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:61723/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[[[ChromeDriver: chrome on mac (a26009da178f0f3a1b6812b6048a0b30)] -&gt; css selector: #genterWrapper]] -&gt; xpath: .//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = &quot;Female&quot;]/parent::*]
+Session ID: a26009da178f0f3a1b6812b6048a0b30
+	at java.base@17.0.9/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base@17.0.9/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base@17.0.9/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base@17.0.9/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base@17.0.9/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at app//org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at app//org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at app//org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at app//org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at app//com.codeborne.selenide.commands.Click.defaultClick(Click.java:106)
+	at app//com.codeborne.selenide.commands.Click.doClick(Click.java:83)
+	at app//com.codeborne.selenide.commands.Click.click(Click.java:59)
+	at app//com.codeborne.selenide.commands.Click.execute(Click.java:34)
+	at app//com.codeborne.selenide.commands.Click.execute(Click.java:26)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:162)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:134)
+	... 6 more
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

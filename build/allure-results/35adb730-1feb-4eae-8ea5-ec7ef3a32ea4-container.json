@@ -1,0 +1,1 @@
+{"uuid":"35adb730-1feb-4eae-8ea5-ec7ef3a32ea4","name":"TestBoxDemoQA","children":["5aacba83-41a4-4b66-8f27-4c6c0cd913d3"],"befores":[{"name":"beforeAll","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1710618495367,"stop":1710618495375}],"afters":[],"start":1710618495343,"stop":1710618500289}

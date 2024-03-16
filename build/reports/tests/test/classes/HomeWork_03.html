@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class HomeWork_03</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class HomeWork_03</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; HomeWork_03</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">11.269s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="PracticeForm()"></a>
+<h3 class="failures">PracticeForm()</h3>
+<span class="code">
+<pre>Invalid element state [#genterWrapper/by text: Female]: element click intercepted: Element &lt;label title=&quot;&quot; for=&quot;gender-radio-2&quot; class=&quot;custom-control-label&quot;&gt;...&lt;/label&gt; is not clickable at point (144, 282). Other element would receive the click: &lt;div&gt;...&lt;/div&gt;
+Screenshot: file:/Users/maksimkazakov/Desktop/QA_GURU/QA_GURU/build/reports/tests/1710617558543.1.png
+Page source: file:/Users/maksimkazakov/Desktop/QA_GURU/QA_GURU/build/reports/tests/1710617558543.1.html
+Timeout: 4 s.
+Caused by: ElementClickInterceptedException: element click intercepted: Element &lt;label title=&quot;&quot; for=&quot;gender-radio-2&quot; class=&quot;custom-control-label&quot;&gt;...&lt;/label&gt; is not clickable at point (144, 282). Other element would receive the click: &lt;div&gt;...&lt;/div&gt;
+	at app//com.codeborne.selenide.impl.ExceptionWrapper.wrap(ExceptionWrapper.java:26)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:156)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:86)
+	at app/jdk.proxy3/jdk.proxy3.$Proxy18.click(Unknown Source)
+	at app//HomeWork_03.PracticeForm(HomeWork_03.java:36)
+	at java.base@17.0.9/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base@17.0.9/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base@17.0.9/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;label title=&quot;&quot; for=&quot;gender-radio-2&quot; class=&quot;custom-control-label&quot;&gt;...&lt;/label&gt; is not clickable at point (144, 282). Other element would receive the click: &lt;div&gt;...&lt;/div&gt;
+  (Session info: chrome=122.0.6261.129)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a26009da178f0f3a1b6812b6048a0b30, clickElement {id=f.FB2EC736421482F378A41FF81CB9F68D.d.6B9C1BF876C47ED31ADC73DFC86D598C.e.39}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: /var/folders/zl/499w_prx503...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61723}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:61723/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[[[ChromeDriver: chrome on mac (a26009da178f0f3a1b6812b6048a0b30)] -&gt; css selector: #genterWrapper]] -&gt; xpath: .//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = &quot;Female&quot;]/parent::*]
+Session ID: a26009da178f0f3a1b6812b6048a0b30
+	at java.base@17.0.9/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base@17.0.9/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base@17.0.9/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base@17.0.9/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base@17.0.9/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at app//org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at app//org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at app//org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at app//org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at app//com.codeborne.selenide.commands.Click.defaultClick(Click.java:106)
+	at app//com.codeborne.selenide.commands.Click.doClick(Click.java:83)
+	at app//com.codeborne.selenide.commands.Click.click(Click.java:59)
+	at app//com.codeborne.selenide.commands.Click.execute(Click.java:34)
+	at app//com.codeborne.selenide.commands.Click.execute(Click.java:26)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:162)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:134)
+	... 6 more
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">PracticeForm()</td>
+<td class="failures">11.269s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.4</a> at 17 мар. 2024 г., 00:32:51</p>
+</div>
+</div>
+</body>
+</html>
